@@ -56,14 +56,13 @@ triangle-toolkit/
 
 ```
 pip install flet
-pip install pyinstaller
 ```
 
 以下はビルドに必要：
 
 ```
-pip install "flet[cli]"
 pip install pyinstaller
+pip install "flet[cli]"
 ```
 
 ## ▶ 開発用アプリ実行
