@@ -1,0 +1,22 @@
+# Ignore build outputs
+build/
+dist/
+
+# Ignore PyInstaller spec files
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Flet pack temp
+*.log
+*.tmp
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
