@@ -110,8 +110,3 @@ dist/
   TRIANGLE-TOOLKIT Bubbles.exe
   TRIANGLE-TOOLKIT Bloody.exe
 ```
-
-## 📝 注意事項
-
-- `b² < c²` の場合 N は算出不可  
-- Windows 以外も python 実行は可能、exe ビルドは Windows 前提
