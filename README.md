@@ -3,13 +3,13 @@
 
 本アプリには以下の2つのデザインバージョンがあります：
 
-1. **泡版 (Bubbles)**
-   ![triangle_bubbles](./assets/gif/triangle_bubbles.gif)
-   爽やかな水色背景と泡のアニメーションが特徴。
+1. **泡版 (Bubbles)**  
+   爽やかな水色背景と泡のアニメーションが特徴。  
+   <img src="./assets/gif/triangle_bubbles.gif" alt="triangle_bubbles" width="400">
 
-2. **血版 (Bloody)**
-   ![triangle_bloody](./assets/gif/triangle_bloody.gif)
-   ダークな背景と血のしずくエフェクトが特徴。
+2. **血版 (Bloody)**  
+   ダークな背景と血のしずくエフェクトが特徴。  
+   <img src="./assets/gif/triangle_bloody.gif" alt="triangle_bloody" width="400">
 
 ## 📘 概要
 
