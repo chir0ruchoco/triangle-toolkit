@@ -9,7 +9,7 @@ import flet as ft
 def main(page: ft.Page):
     # ====== ページ設定 ======
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    page.window.icon = os.path.join(root_dir, "assets", "triangle-icon.ico")
+    page.window.icon = os.path.join(root_dir, "assets", "triangle_bubbles-icon.ico")
     page.title = "TRIANGLE-TOOLKIT"
     page.window.width = 340       # スマホくらいの幅
     page.window.height = 600
@@ -129,7 +129,7 @@ def main(page: ft.Page):
 
     # ====== 上部：三角形画像（あとで差し替え） ======
     triangle_image = ft.Image(
-        src=os.path.join(root_dir, "assets", "triangle.png"),
+        src=os.path.join(root_dir, "assets", "triangle_bubbles.png"),
         width=240,
         height=170,
         fit=ft.ImageFit.CONTAIN,

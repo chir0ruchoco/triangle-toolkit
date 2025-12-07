@@ -1,6 +1,15 @@
 # Triangle Toolkit 🧮✨
 直角三角形の幾何構造から **N** を自動計算する Windows 向けツール
-![triangle](./assets/triangle.png)
+
+本アプリには以下の2つのデザインバージョンがあります：
+
+1. **泡版 (Bubbles)**
+   ![triangle_bubbles](./assets/gif/triangle_bubbles.gif)
+   爽やかな水色背景と泡のアニメーションが特徴。
+
+2. **血版 (Bloody)**
+   ![triangle_bloody](./assets/gif/triangle_bloody.gif)
+   ダークな背景と血のしずくエフェクトが特徴。
 
 ## 📘 概要
 
@@ -40,10 +49,11 @@
 
 ```
 triangle-toolkit/
-  main.py
+  app_ver_bubbles.py  # 泡版
+  app_ver_bloody.py   # 血版
   assets/
-    triangle.png
-    triangle-icon.ico
+    triangle_bubbles-icon.ico
+    triangle_bloody -icon.ico
   README.md
 ```
 
@@ -71,15 +81,28 @@ pip install "flet[cli]"
 git clone https://github.com/your-name/triangle-toolkit.git
 cd triangle-toolkit
 pip install flet
-python main.py
+
+# 泡版を実行
+python app_ver_bubbles.py
+
+# 血版を実行
+python app_ver_bloody.py
 ```
 
 ## 🏗 exe ビルド方法（Windows）
 
 ```
-flet pack main.py `
-  --name "TRIANGLE-TOOLKIT" `
-  --icon assets/triangle-icon.ico `
+# 泡版をビルド
+flet pack app_ver_bubbles.py `
+  --name "TRIANGLE-TOOLKIT Bubbles" `
+  --icon assets/triangle_bubbles-icon.ico `
+  --add-data "assets;assets" `
+  -D
+
+# 血版をビルド
+flet pack app_ver_bloody.py `
+  --name "TRIANGLE-TOOLKIT Bloody" `
+  --icon assets/triangle_bloody -icon.ico `
   --add-data "assets;assets" `
   -D
 ```
@@ -88,7 +111,8 @@ flet pack main.py `
 
 ```
 dist/
-  TRIANGLE-TOOLKIT.exe
+  TRIANGLE-TOOLKIT Bubbles.exe
+  TRIANGLE-TOOLKIT Bloody.exe
 ```
 
 ## 📝 注意事項
